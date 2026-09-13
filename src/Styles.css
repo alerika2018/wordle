@@ -1,0 +1,50 @@
+.wordContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.cell {
+  display: flex;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: black;
+  border-width: 2px;
+  padding: 8px;
+  width: 25px;
+  justify-content: center;
+  font-weight: 400;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 40px;
+}
+
+.yellow {
+  background-color: yellow;
+  color: black;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}
+
+.gray {
+  background-color: gray;
+  color: white;
+}
